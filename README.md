@@ -1,4 +1,4 @@
-# App Academy Python Projects
+# FNB App Academy Python Projects
 
 This repository contains my Python programming exercises and assignments completed while learning Python through the FNB App Academy.
 
