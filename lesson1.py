@@ -7,6 +7,6 @@ name = "phumi"
 print(name)
 
 
-#making our code interactive
+#making our code interactive 
 name = input("what is your name: ?")
 print(f"Greetings, {name}!")
