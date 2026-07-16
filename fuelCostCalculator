@@ -1,0 +1,24 @@
+# South African Fuel Cost Calculator
+
+#collect user input 
+kilometers = float(input("How many kilometers do you want to drive: "))
+currentPetrol = float(input("What is the price per liter: "))
+
+# Calculate liters needed
+liters_needed = kilometers / 10
+
+# Calculate total fuel cost
+total_cost = liters_needed*currentPetrol
+
+#display results
+print("\n------------FUEL COST CALCULATOR-----------\n")
+print(f"Distance to travelled\t: {kilometers} km")
+print(f"Current liters\t\t: R{currentPetrol}" )
+print(f"Fuel Needed\t\t: {round(liters_needed,2)} liters")
+print(f"Total cost\t\t: R{round(total_cost,2)}")
+print("\n==========================================")
+
+
+
+
+
