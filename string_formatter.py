@@ -2,7 +2,7 @@ print("String Formatter\n")
 
 #Collecting User Input
 name = input("Enter your name: ").strip()
-last_name = input("Enter your last name: ").strip()
+last_name = input("Enter your last name: gi").strip()
 bio = input("Write a short message bio: ").strip()
 
 #creating a username
