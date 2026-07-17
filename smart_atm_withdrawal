@@ -1,0 +1,20 @@
+#The Smart ATM Withdrawal Simulator
+
+print("The Smart ATM\n")
+
+balance = 500
+
+request = float(input("How much money do you want to withdraw: R"))
+
+if request <= 0:
+    print("Invalid amount. You must withdraw more than R0.")
+
+elif request<=balance:
+    balance -= request 
+    print(f"Withdrawal successful! Remaining balance: R{balance}")
+
+elif request<=0:
+    print("Invalid amount. You must withdraw more than 'R0'")
+
+else: 
+    print("Declined. Insufficient funds")    
