@@ -1,0 +1,11 @@
+# a guessing game using a while loop
+secret_word = "python"
+while True:
+    guess = input("Guess the programming language : ").lower().strip()
+    if guess == secret_word:
+        print("Congratulations! You guessed it right.")
+        break
+    else:
+        print("Try again!")
+        
+
